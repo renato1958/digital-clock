@@ -22,19 +22,21 @@ body {
 .main-title {
   position: absolute;
   top: 30px;
+  width: 100%;
   padding: 15px 20px;
   background-color: black;
 }
 
 .main-title h2 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
+  text-align: center;
 }
 
 .faces-container {
-  width: 80%;
-  height: 150px;
+  width: 100%;
+  height: 90px;
   background-color: black;
   display: flex;
   flex-direction: row;
@@ -45,19 +47,19 @@ body {
 
 .face {
   background-color: white;
-  height: 110px;
+  height: 75px;
   flex: 1 0 0;
-  margin: 0 10px;
+  margin: 0 2%;
   text-align: center;
-  line-height: 110px;
-  font-size: 3rem;
+  line-height: 75px;
+  font-size: 1.5rem;
   font-weight: normal;
 }
 
 .face:first-of-type {
-  margin-left: 20px;
+  margin-left: 4%;
 }
 
 .face:last-of-type {
-  margin-right: 20px;
+  margin-right: 4%;
 }
